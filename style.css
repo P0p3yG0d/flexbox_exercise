@@ -1,0 +1,62 @@
+* {
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 10px 90px;
+}
+
+/*.container div {
+    border: 1px #000 solid;
+}*/
+
+.row1 {
+    text-align: center;
+    background-color: #e9e9e9;
+    margin-bottom: 20px;
+    padding: 20px 0px;
+}
+
+.row1>img {
+    width: 300px;
+}
+
+#buyBtn {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 0px;
+    background-color: #262626;
+    transition: ease-out 0.3s;
+    color: #fff;
+}
+
+#buyBtn:hover {
+    background-color: #808080 ;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.col {
+    width: 400px;
+    height: 400px;
+    background-color: #e9e9e9;
+}
+
+.col>img {
+    width: 400px;
+}
+
+.four>img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
